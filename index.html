@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <title>CultureVille</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    
+    
+                        <!--NAVBAR-->
+    
+    <nav class="navbar navbar-expand-lg"><div class="container">
+      <div class="navbar-brand">
+            <img src="img/cultureville.png" alt="" class="nav-logo">
+            <a href="#" class='navbar-brand'>Culture <span class="text-warning">Ville</span></a>
+            
+        </div>
+           <div class="collapse navbar-collapse" id="navmenu">
+             <ul class="navbar-nav ms-auto"">
+               <li class="nav-item ">
+                 <a href="#" class="nav-link text-dark">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a href="#" class="nav-link text-dark">Explore Cultures</a>
+               </li>
+               <li class="nav-item">
+                 <a href="#" class="nav-link text-dark">About us</a>
+               </li>
+             </ul>
+           </div>
+         </div>
+       
+     </div>
+ </nav>
+              
+                         <!--NAVBAR NAVIGATION-->
+
+     <div class="showcase-lg d-none d-md-flex align-items-center">
+      <div>
+        <h1 class="welcome">Welcome to <span class="highlight">Culture</span><span class="text-dark">ville</span></h1>
+        <h1>Akan<span class='highlight'>Naming</span></h1>
+      </div>
+      <div>
+          <img src="img/showcase.jpg" alt="" width="350px">
+      </div>
+
+     </div>  
+     
+     <p class="read">READ MORE</p>
+
+     <section class="main">
+         <div class="intro">
+             <p class="featuring text-center"> FEATURING</p>
+             <P class="intro text-center">Taking a look at the Naming among the Akan people of Ghana.
+                 By the end of the day,You should have your very own Akan name!
+             </P>
+         </div>
+         <div class='main2 d-flex align-items-center'>
+             <div>
+                 <img src="img/africanwoman.jpg" alt="" width='350px'>
+             </div>
+             <div class="main-para">
+                 <p class="text-center paraheader"> <b>AKAN NAMING</b></p>
+                 <p>Akan names consist of several given names and surnames.According to this ethnic group
+                    Children are given a name corresponding to the day of the week they are born and their gender
+                    .</p>
+                    <p>These names have further meanings concerning their souls and personal characters</p>
+             </div>
+
+         </div>
+
+     </section>
+
+
+
+
+
+                                           <!--NAME GENERATOR-->
+
+    
+       <section class="naming">
+          <div class="naming-para text-center">
+              <p class="generator">AKAN NAME GENERATOR</p>
+              <p><b>Interesting right? why don't you get your very own corresponding akan Name 
+                using the name generator tool right below</b></p>
+         </div>
+
+         <button  class='get'type="button">Get Your Akan Name</button>
+
+    
+            <div class="genderprompt modal">
+                <div class="text-center">
+                    <button class="close-modal"><h1>&times;</h1></button>
+                    <h4 class="what">Akan Names are based on gender,What's yours?</h4>
+                </div>
+                
+            <div class="input text-center">
+                <form class='optional'action="">
+                      <input class="male" type="radio" name="gender" value="male">Male <br>
+                    
+                      <input  class='female'type="radio" name="gender" value="Female">Female<br>
+                      </form>
+                    
+                  <button class="next">Next</button>
+           </div>
+                
+            </div>
+          
+          <div class="birthdayprompt modal">
+            <div class="text-center">
+                <button class="close-modal"><h1>&times;</h1></button>
+                <h4 class="what"><p>Just a Little more,Tell us your Birthday</p></h4>
+            </div>
+            <div class="input text-center">
+                <div class="birthdayform">
+                    <form class="d-flex align-items-center justify-content-center"action="">
+                        <label class="p-1" for="birthday">Day:</label>
+                        <input class="day" type="number"  id="birthday" name="birthday"  placeholder="dd" style="width: 60px">
+                        
+                        
+                          <br> <br>
+                        <label class="p-1" for="birthday">Month:</label>
+                        <input class='month' type="number" id="birthday" name="birthday"  placeholder="mm" style="width: 60px">
+                      
+                        
+                        <br> <br>
+                        <label class="p-1" for="birthday">Year:</label>
+                        <input class='year' type="number" id="birthday" name="birthday" placeholder="yyyy" style="width: 70px">
+                       
+                </div>
+         
+                  </form>
+                  <div class="invalid modal" style="color: red;"> <img src="img/exclam.png"  width="30px" alt=""> Enter valid input</div>
+                  <button class="submit-response">Submit</button>
+              </div>
+            </div>
+
+            <div class="result modal">
+                <div class="text-center">
+                    <button class="close-modal"><h1>&times;</h1></button>
+                    <h4 class="what final"><p>Your Akan Name is : <span class="akan-name"></span></p></h4>
+                    <button class="text-centre tryagain">Try again</button>
+                </div>
+            </div>
+
+            <div class="overlay modal"></div>
+
+
+
+
+
+
+
+
+
+        
+   
+    
+      </section>
+ 
+
+     
+  </body>
+</html>

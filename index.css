@@ -1,0 +1,264 @@
+:root {
+  --color-primary: #5ec576;
+  --color-secondary: #ffcb03;
+  --color-tertiary: #ff585f;
+  --color-primary-darker: #4bbb7d;
+  --color-secondary-darker: #ffbb00;
+  --color-tertiary-darker: #fd424b;
+  --color-primary-opacity: #5ec5763a;
+  --color-secondary-opacity: #ffcd0331;
+  --color-tertiary-opacity: #ff58602d;
+  --gradient-primary: linear-gradient(to top left, #39b385, #9be15d);
+  --gradient-secondary: linear-gradient(to top left, #ffb003, #ffcb03);
+}
+* {
+  font-family: 'poppins';
+}
+.nav-logo {
+  height: 4.5rem;
+  transition: all 0.3s;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: large;
+  color: black;
+}
+.navbar {
+  background-color: rgb(245, 245, 245);
+}
+
+.navbar-nav a:hover {
+  font-size: 17px;
+  border-bottom: teal solid;
+}
+
+.nav-item {
+  padding-left: 80px;
+}
+body {
+  background-color: teal;
+}
+.highlight {
+  position: relative;
+}
+
+.highlight::after {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 120%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  transform: scale(1.07, 1.05) skewX(-15deg);
+  background-image: var(--gradient-primary);
+}
+.showcase-lg {
+  padding-top: 5%;
+  padding-left: 6%;
+}
+.showcase-lg h1 {
+  font-size: 60px;
+  font-weight: bolder;
+}
+.welcome {
+  padding-right: 5%;
+  width: 800px;
+}
+.read {
+  font-size: 15.5px;
+  margin-top: -2%;
+  letter-spacing: 0.1em;
+  word-spacing: 0.3em;
+  border-bottom: #39b385 solid 1px;
+  line-height: 1em;
+  color: #39b385;
+  width: 8.4%;
+  margin-left: 7%;
+}
+.main {
+  padding-top: 10%;
+}
+
+.intro {
+  font-size: 27px;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-weight: bold;
+}
+
+.featuring {
+  font-weight: bold;
+  color: #5ec576;
+  font-size: 18px;
+}
+
+.main2 {
+  padding: 10%;
+  font-size: 20px;
+}
+
+.main-para {
+  padding: 13%;
+  font-size: 17px;
+  background-color: rgb(245, 245, 245);
+  margin-left: 10%;
+}
+.paraheader {
+  color: #5ec576;
+}
+.naming-para {
+  font-size: 25px;
+  padding-top: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 2rem;
+}
+.naming {
+  background-image: url(img/817598.jpg);
+  padding: 6%;
+  margin: 6%;
+}
+
+.get {
+  font-size: 1.5rem;
+  margin-left: 35%;
+  border-radius: 20px;
+  background-color: rgb(20, 148, 20);
+  padding: 10px;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.naming button:hover {
+  background-color: rgb(54, 174, 54);
+}
+.generator {
+  font-size: 18px;
+  color: #5ec576;
+  margin-top: -5%;
+  font-weight: bold;
+}
+.genderprompt {
+  border: solid white;
+  border-radius: 10px;
+  padding: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 50%;
+  height: 20%;
+  margin-left: 23%;
+  position: relative;
+  background-color: white;
+  margin-top: -25%;
+  z-index: 100;
+}
+.optional {
+  font-size: 25px;
+  text-align: justify;
+  padding-left: 40%;
+}
+
+.close-modal {
+  position: absolute;
+  top: 0rem;
+  right: 2%;
+  font-size: 5rem;
+  color: rgb(8, 8, 8);
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.what {
+  padding-top: 3%;
+}
+.next {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  color: white;
+  background-color: rgb(54, 174, 54);
+  border: none;
+  font-weight: bold;
+  padding: 2%;
+  border-radius: 15px;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.birthdayprompt {
+  border: solid white;
+  border-radius: 10px;
+  padding: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 50%;
+  margin-top: -28%;
+  margin-left: 23%;
+  position: relative;
+  background-color: white;
+  z-index: 100;
+}
+.submit-response {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  color: white;
+  background-color: rgb(54, 174, 54);
+  border: none;
+  font-weight: bold;
+  padding: 2%;
+  border-radius: 15px;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.birthdayform {
+  padding-bottom: 10%;
+}
+.invalid {
+  margin-top: -5%;
+  padding-bottom: 15%;
+}
+.result {
+  margin-top: -25%;
+  border: solid white;
+  border-radius: 10px;
+  padding: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 50%;
+  height: 20%;
+  margin-left: 23%;
+  position: relative;
+  background-color: white;
+  z-index: 100;
+}
+
+.tryagain {
+  background-color: rgb(54, 174, 54);
+  border: none;
+  font-weight: bold;
+  padding: 2%;
+  border-radius: 15px;
+  padding-right: 5%;
+  padding-left: 5%;
+  color: white;
+}
+.overlay {
+  position: absolute;
+  top: 0%;
+  left: 0;
+
+  width: 100%;
+  height: 400%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
