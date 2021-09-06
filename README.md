@@ -45,7 +45,7 @@ if you may have any problems while viewing or launching the project feel free to
 + Run the project live-link right on your installed browser
 
 ```
-To get a copy of this projects, that is, if you have a fix to a known bug or simple editing, follow these instructions cloning instructions:
+To get a copy of this projects, that is, if you have a fix to a known bug or simple editing, follow these cloning instructions:
 
 + Git clone (clones to your editor)
 + Make the neccessary changes then do a Pull Request.
