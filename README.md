@@ -30,7 +30,7 @@ Access the project website right here:https://dwn7777.github.io/cultureVille/
 + Read a short overview of the Akans
 + Navigate to other pages
 + Utilize a name generator tool
-+ 
+
 
 ```
 
