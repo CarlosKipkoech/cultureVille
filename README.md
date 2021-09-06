@@ -1,10 +1,9 @@
 # Culture Ville
+## Project By Carlos Kipkoech
+ View my profile on Github: [CARLOS KIPKOECH](https://github.com/DWN7777/)
 
 ## Project Description
 Welcome to cultureville! A website that contains an overview of the Akan people(Ghana). It also contains a  name generator tool in correspondance to their naming!
-
-## A Project By: Carlos Kipkoech
- View my profile on Github: [CARLOS KIPKOECH](https://github.com/DWN7777/)
 
 ## Specifications
 > Note that this is a static website
@@ -16,10 +15,14 @@ Access the website on google chrome,safari or mozilla firefox for smooth running
 
 # Live link, Site screenschot images and Expectations
 ##  Live link to site
-Access the project website right here:https://dwn7777.github.io/myportfolio/
+Access the project website right here:https://dwn7777.github.io/cultureVille/
 
 ##  Screenshots of the site
-  
+  ![Screenshot from 2021-09-06 17-16 (2)](https://user-images.githubusercontent.com/87478982/132234220-56eecbe5-a37f-4e68-b40f-8e2f3df88d29.png)
+![Screenshot from 2021-09-06 17-16 (3)](https://user-images.githubusercontent.com/87478982/132234252-7a12f40c-c5cb-4bb8-9831-696e1dc6c592.png)
+![Screenshot from 2021-09-06 17-17 (3)](https://user-images.githubusercontent.com/87478982/132234269-f627375c-ee9f-4fd8-9cb1-a6d221f35806.png)
+![Screenshot from 2021-09-06 17-17 (4)](https://user-images.githubusercontent.com/87478982/132234272-fb878851-9568-4d29-89e9-7ff16150c5ad.png)
+
 
 
 ### Once on the site,you should be able to:
@@ -51,7 +54,7 @@ To get a copy of this projects, that is, if you have a fix to a known bug or sim
 > yet to be made responsive on all medias
 ## Prerequisites
 - You need your preffered browser installed. Preffered browsers are Chrome(Google Android), Safari(ios), Mozilla (firefox)
-- Make you sure have the right live link to this specific project. The link is (https://github.com/DWN7777/myportfolio/).
+- Make you sure have the right live link to this specific project. The link is (https://github.com/DWN7777/cultureVille/).
 
 ## Technologies Used
 > HTML for the general website Structure 
