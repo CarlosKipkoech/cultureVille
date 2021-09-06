@@ -126,6 +126,7 @@ btnSubmit.addEventListener('click', function () {
 overlay.addEventListener('click', function () {
   genderPrompt.classList.add('modal');
   overlay.classList.add('modal');
+  invalid.classList.add('modal');
   birthdayPrompt.classList.add('modal');
   result.classList.add('modal');
 });
@@ -158,25 +159,25 @@ btnSubmit.addEventListener('click', function () {
 tryAgain.addEventListener('click', function () {
   genderPrompt.classList.remove('modal');
   overlay.classList.remove('modal');
+  invalid.classList.add('modal');
   birthdayPrompt.classList.add('modal');
   result.classList.add('modal');
   document.querySelector('.day').value = '';
   document.querySelector('.month').value = '';
   document.querySelector('.year').value = '';
   document.querySelector('.checkbox').checked === false;
-  invalid.classList.add('modal');
 });
 
 for (let i = 0; i < closeModal.length; i++) {
   closeModal[i].addEventListener('click', function () {
     genderPrompt.classList.add('modal');
     overlay.classList.add('modal');
+    invalid.classList.add('modal');
     birthdayPrompt.classList.add('modal');
     result.classList.add('modal');
     document.querySelector('.day').value = '';
     document.querySelector('.month').value = '';
     document.querySelector('.year').value = '';
     document.querySelector('.checkbox').checked === false;
-    invalid.classList.add('modal');
   });
 }
