@@ -163,7 +163,8 @@ tryAgain.addEventListener('click', function () {
   document.querySelector('.day').value = '';
   document.querySelector('.month').value = '';
   document.querySelector('.year').value = '';
-  checkbox.checked === false;
+  document.querySelector('.checkbox').checked === false;
+  invalid.classList.add('modal');
 });
 
 for (let i = 0; i < closeModal.length; i++) {
@@ -175,6 +176,7 @@ for (let i = 0; i < closeModal.length; i++) {
     document.querySelector('.day').value = '';
     document.querySelector('.month').value = '';
     document.querySelector('.year').value = '';
-    checkbox.checked === false;
+    document.querySelector('.checkbox').checked === false;
+    invalid.classList.add('modal');
   });
 }
