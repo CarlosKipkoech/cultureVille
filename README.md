@@ -19,7 +19,11 @@ Access the website on google chrome,safari or mozilla firefox for smooth running
 Access the project website right here:https://dwn7777.github.io/myportfolio/
 
 ##  Screenshots of the site
-  
+  ![Screenshot from 2021-09-06 17-16 (2)](https://user-images.githubusercontent.com/87478982/132234220-56eecbe5-a37f-4e68-b40f-8e2f3df88d29.png)
+![Screenshot from 2021-09-06 17-16 (3)](https://user-images.githubusercontent.com/87478982/132234252-7a12f40c-c5cb-4bb8-9831-696e1dc6c592.png)
+![Screenshot from 2021-09-06 17-17 (3)](https://user-images.githubusercontent.com/87478982/132234269-f627375c-ee9f-4fd8-9cb1-a6d221f35806.png)
+![Screenshot from 2021-09-06 17-17 (4)](https://user-images.githubusercontent.com/87478982/132234272-fb878851-9568-4d29-89e9-7ff16150c5ad.png)
+
 
 
 ### Once on the site,you should be able to:
