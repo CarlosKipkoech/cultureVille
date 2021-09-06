@@ -160,6 +160,10 @@ tryAgain.addEventListener('click', function () {
   overlay.classList.remove('modal');
   birthdayPrompt.classList.add('modal');
   result.classList.add('modal');
+  document.querySelector('.day').value = '';
+  document.querySelector('.month').value = '';
+  document.querySelector('.year').value = '';
+  checkbox.checked === false;
 });
 
 for (let i = 0; i < closeModal.length; i++) {
@@ -168,5 +172,9 @@ for (let i = 0; i < closeModal.length; i++) {
     overlay.classList.add('modal');
     birthdayPrompt.classList.add('modal');
     result.classList.add('modal');
+    document.querySelector('.day').value = '';
+    document.querySelector('.month').value = '';
+    document.querySelector('.year').value = '';
+    checkbox.checked === false;
   });
 }
