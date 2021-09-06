@@ -15,7 +15,7 @@ Access the website on google chrome,safari or mozilla firefox for smooth running
 
 # Live link, Site screenschot images and Expectations
 ##  Live link to site
-Access the project website right here:https://dwn7777.github.io/cultureville/
+Access the project website right here:https://dwn7777.github.io/cultureVille/
 
 ##  Screenshots of the site
   ![Screenshot from 2021-09-06 17-16 (2)](https://user-images.githubusercontent.com/87478982/132234220-56eecbe5-a37f-4e68-b40f-8e2f3df88d29.png)
@@ -54,7 +54,7 @@ To get a copy of this projects, that is, if you have a fix to a known bug or sim
 > yet to be made responsive on all medias
 ## Prerequisites
 - You need your preffered browser installed. Preffered browsers are Chrome(Google Android), Safari(ios), Mozilla (firefox)
-- Make you sure have the right live link to this specific project. The link is (https://github.com/DWN7777/cultureville/).
+- Make you sure have the right live link to this specific project. The link is (https://github.com/DWN7777/cultureVille/).
 
 ## Technologies Used
 > HTML for the general website Structure 
